@@ -126,15 +126,33 @@ int main()
     return 0;
 }
 
-output:
+Output:
 --- Queue Using Linked List Menu ---
 1. Enqueue
 2. Dequeue
 3. Display
 4. Exit
 Enter your choice: 1
-Enter data to insert: 4
-4 inserted into circular queue.
+Enter data to insert: 10
+10 inserted into circular queue.
+
+--- Queue Using Linked List Menu ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 1
+Enter data to insert: 20
+20 inserted into circular queue.
+
+--- Queue Using Linked List Menu ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 1
+Enter data to insert: 30
+30 inserted into circular queue.
 
 --- Queue Using Linked List Menu ---
 1. Enqueue
@@ -142,7 +160,7 @@ Enter data to insert: 4
 3. Display
 4. Exit
 Enter your choice: 3
-Circular Queue elements: 4 
+Circular Queue elements: 10 20 30 
 
 --- Queue Using Linked List Menu ---
 1. Enqueue
@@ -150,7 +168,15 @@ Circular Queue elements: 4
 3. Display
 4. Exit
 Enter your choice: 2
-Deleted element: 4
+Deleted element: 10
+
+--- Queue Using Linked List Menu ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 3
+Circular Queue elements: 20 30 
 
 --- Queue Using Linked List Menu ---
 1. Enqueue
